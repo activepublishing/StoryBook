@@ -1,0 +1,1 @@
+{"version":3,"file":"Hyphen-d317c55d.js","sources":["../../src/DesignSystem/Icons/List/Hyphen.ts"],"sourcesContent":["const hyphen =\n\"M 454.18821,195.72473 V 298.80012 H 67.237571 V 195.72473 Z\";\nexport default hyphen;\n"],"names":["hyphen"],"mappings":"AAAA,MAAMA,EACN"}

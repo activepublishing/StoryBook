@@ -1,0 +1,12 @@
+import{q as _,b as v,s as b,B as a,J as h,v as g,D as x,E as y}from"./vue.esm-bundler-a0839515.js";import{_ as I}from"./_plugin-vue_export-helper-c27b6911.js";const o=e=>(x("data-v-95083e0c"),e=e(),y(),e),k=["onSubmit"],C=["value","placeholder"],S=o(()=>a("span",{class:"bottom"},null,-1)),T=o(()=>a("span",{class:"right"},null,-1)),q=o(()=>a("span",{class:"top"},null,-1)),D=o(()=>a("span",{class:"left"},null,-1)),i=_({__name:"InputText",props:{value:{type:String,required:!1,default:""},placeholder:{type:String,required:!1,default:""},onChangeCallback:{type:Function,required:!1},onSubmitCallback:{type:Function,required:!1}},setup(e){const t=e,l=v(null),m=n=>{const r=n.target;t.onChangeCallback&&t.onChangeCallback(r.value)},f=()=>{var n;t.onSubmitCallback&&((n=l.value)==null?void 0:n.value)!==void 0&&t.onSubmitCallback(l.value.value)};return(n,r)=>(g(),b("div",null,[a("form",{onSubmit:h(f,["prevent"])},[a("input",{type:"text",class:"input",value:t.value,onInput:m,placeholder:t.placeholder,ref_key:"input",ref:l},null,40,C),S,T,q,D],40,k)]))}});const d=I(i,[["__scopeId","data-v-95083e0c"]]);i.__docgenInfo={exportName:"default",displayName:"InputText",description:"",tags:{},props:[{name:"value",description:"Actual value to display",type:{name:"string"},required:!1,defaultValue:{func:!1,value:'""'}},{name:"placeholder",description:"Actual value to display",type:{name:"string"},required:!1,defaultValue:{func:!1,value:'""'}},{name:"onChangeCallback",description:"Callback function on click",type:{name:"func"},required:!1},{name:"onSubmitCallback",description:"Callback function on click",type:{name:"func"},required:!1}],sourceFiles:["/home/runner/work/wireframe/wireframe/src/DesignSystem/Form/InputText.vue"]};const E={title:"Design System/Form/InputText",component:d,parameters:{componentSubtitle:"Display a InputText button"}},w=e=>({components:{InputText:d},setup(){return{args:e}},template:'<InputText v-bind="args" />'}),s=w.bind({});s.args={};var u,c,p;s.parameters={...s.parameters,docs:{...(u=s.parameters)==null?void 0:u.docs,source:{originalSource:`args => ({
+  components: {
+    InputText
+  },
+  setup() {
+    return {
+      args
+    };
+  },
+  template: '<InputText v-bind="args" />'
+})`,...(p=(c=s.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};const N=["Default"];export{s as Default,N as __namedExportsOrder,E as default};
+//# sourceMappingURL=InputText.stories-06cd3cfa.js.map
